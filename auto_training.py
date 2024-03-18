@@ -6,16 +6,6 @@ from selenium.webdriver.chrome.options import Options
 from selenium.webdriver.common.keys import Keys
 import time
 
-#initilzing Chrome Driver
-# ch_options = Options()
-
-# profile_path = r'/Users/surajyerramilli/Library/Application\ Support/Google/Chrome/Profile\ 1'
-# ch_options.add_argument(f'user-data-dir={profile_path}')
-
-# extension_path = r'/Users/surajyerramilli/Library/Application\ Support/Google/Chrome/Profile\ 1/Extensions/chnccghejnflbccphgkncbmllhfljdfa'
-# ch_options.add_argument(f'--load-extension={extension_path}')
-
-#options = ch_options
 
 driver = webdriver.Chrome()
 #max size window
@@ -124,57 +114,3 @@ time.sleep(100)
 
 time.sleep(100)   
 
-#watch the slides, until the 'next slide' appears
-
-
-
-
-
-
-
-#click next slide
-#for slide in assignment:
-# next_slide = driver.find_element(By.XPATH, "/html/body/div[1]/div[2]/div[2]/div[3]/button[3]")
-                 
-                               
-# next_slide.click()
-
-
-
-
-
-
-
-
-
-
-
-
-
-# path to extension = /Users/surajyerramilli/Library/Application\ Support/Google/Chrome/Profile\ 1/Extensions/chnccghejnflbccphgkncbmllhfljdfa
-
-# path to profile = /Users/surajyerramilli/Library/Application\ Support/Google/Chrome/Profile\ 1
-
-
-
-
-
-#52245F
-
-
-#push5301
-
-
-
-
-
-
-
-
-
-
-
-
-#driver.maximize_window()
-#ChromeDriverManager().install()
-#from webdriver_manager.chrome import ChromeDriverManager
