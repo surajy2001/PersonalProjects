@@ -28,7 +28,7 @@ wait = WebDriverWait(driver, 10)
 org_ID = wait.until(EC.visibility_of_element_located((By.ID, "org_id")))
 
 #Once detected, add the text
-org_ID.send_keys("52245F")
+org_ID.send_keys("ADD YOUR ORGNIZATION KEY")
 
 #Finds the submit button 
 org_ID_submit = driver.find_element(By.XPATH, "/html/body/div[1]/div[1]/div[1]/form[1]/div[1]/button[1]")
@@ -41,7 +41,7 @@ wait2 = WebDriverWait(driver, 20)
 
 user_name = wait2.until(EC.visibility_of_element_located((By.ID, "user_id")))
 
-user_name.send_keys("push5301")
+user_name.send_keys("ADD YOUR USERNAME")
 
 
 
