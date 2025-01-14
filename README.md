@@ -1,4 +1,4 @@
-This Selenium script helps automate GCN teacher training Modules using Selenium Chome Webdriver:
+This Selenium script helps automate GCN teacher training Modules using Selenium Chrome Webdriver:
 
 - Script will automate going through the length of questions, by waiting for slide to complete and clicking next 
    - The script must be run independently each time for a specific module you would like completed
