@@ -18,5 +18,3 @@ To properly use my script, there are some changes that you need to make:
 Optional:
  - Alter 'sleep' at the end of the file to keep the browser open for a longer time (in seconds) 
 
-
-My mother was struggling to complete her GCN training modules for work as they take hours, so I wanted to step up and help. PLEASE SHARE AND USE THIS TO YOUR ADVANTAGE
